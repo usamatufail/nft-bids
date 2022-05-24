@@ -10,3 +10,5 @@ export {
   People,
   EndDate,
 } from './SubInfo.component.jsx';
+export { DetailsDesc } from './DetailsDesc.component';
+export { DetailsBid } from './DetailsBid.component';
