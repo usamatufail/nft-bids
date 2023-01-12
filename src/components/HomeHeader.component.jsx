@@ -18,11 +18,7 @@ export const HomeHeader = ({ onSearch }) => {
           alignItems: 'center',
         }}
       >
-        <Image
-          source={assets.logo}
-          resizeMode="contain"
-          style={{ width: 90, height: 25 }}
-        />
+        <Image source={assets.logo} resizeMode="contain" style={{ width: 90, height: 25 }} />
 
         {/* Person Logo Part */}
         <View
@@ -62,7 +58,7 @@ export const HomeHeader = ({ onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello, Suleman 👋
+          Hello, Sam 👋
         </Text>
         <Text
           style={{
@@ -89,16 +85,8 @@ export const HomeHeader = ({ onSearch }) => {
             paddingVertical: SIZES.small - 2,
           }}
         >
-          <Image
-            source={assets.search}
-            resizeMode="contain"
-            style={{ width: 20, height: 20, marginRight: SIZES.base }}
-          />
-          <TextInput
-            placeholder="Search NFTs"
-            style={{ flex: 1 }}
-            onChangeText={onSearch}
-          />
+          <Image source={assets.search} resizeMode="contain" style={{ width: 20, height: 20, marginRight: SIZES.base }} />
+          <TextInput placeholder="Search NFTs" style={{ flex: 1 }} onChangeText={onSearch} />
         </View>
       </View>
     </View>
